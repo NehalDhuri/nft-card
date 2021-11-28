@@ -11,12 +11,13 @@ body{
     width: 240px;
     height: 450px;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: hsl(216, 50%, 16%);
 }
 
 .eq-img img{
     width:100%;
+    border-radius: 8px;
 }
 
 .title{
