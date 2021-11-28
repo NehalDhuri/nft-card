@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
+*{
+    font-size: 18px;
+}
+
 body{
     font-family: 'Outfit', sans-serif;
-    font-size: 18px;
     background-color: hsl(217, 54%, 11%);
 }
 
@@ -21,8 +24,12 @@ body{
 }
 
 .title{
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-size: 1rem;
     margin: 10px 0px;
     font-weight: 600;
+}
+
+.subTitle {
+
 }
