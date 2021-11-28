@@ -8,9 +8,13 @@ body{
 
 .card{
     margin: 20vh auto;
-    width: 45vw;
-    height: 200vh;
+    width: 240px;
+    height: 450px;
     padding: 20px;
     border-radius: 5px;
     background-color: hsl(216, 50%, 16%);
+}
+
+.eq-img img{
+    width:100%;
 }
