@@ -16,11 +16,56 @@ body{
     padding: 20px;
     border-radius: 10px;
     background-color: hsl(216, 50%, 16%);
+    /* box-shadow: 15px 30px, -15px 30px; */
+}
+
+.cardM{
+    
+}
+
+.eq-img{
+    position: relative;
 }
 
 .eq-img img{
+    display: block;
     width:100%;
     border-radius: 8px;
+}
+
+.overlay{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .3s ease;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    border-radius: 8px;
+}
+
+.view img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 36px;
+    margin: 45% auto;
+    opacity: 0;
+    transition: .3s ease;
+
+}
+
+.eq-img:hover .overlay{
+    opacity: 45%;
+    cursor: pointer;
+}
+
+.eq-img:hover .view img{
+    opacity: 1;
 }
 
 .title{
@@ -28,6 +73,11 @@ body{
     font-size: 1rem;
     margin: 10px 0px;
     font-weight: 600;
+}
+
+.title:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .subTitle {
@@ -97,4 +147,9 @@ hr{
     color: hsl(215, 51%, 70%);
     margin-right: 5px;
     font-size: 0.7rem;
+}
+
+.credit:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
